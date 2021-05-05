@@ -20,19 +20,19 @@
         <hr/>
         <p>
             Create an <a href="https://aws.amazon.com/free/">AWS Account</a>, attach the necessary <a
-                href="policy.json"> IAM policy</a>, and enter your Access Id and Secret Key below.
+                href="policy.json"> IAM policy</a>, and enter your credentials below.
         </p>
 
         <div id="error" class="isa_error"></div>
 
         <div class="row">
             <div class="col">
-                <label>Access ID:</label>
-                <input type="password" id="access_id" placeholder="ACCESS ID" value="" />
+                <label>Access Key:</label>
+                <input type="password" id="access_id" placeholder="ACCESS KEY" value="" />
 
                 <label>Secret Key:</label>
                 <input type="password" id="secret_key" placeholder="SECRET KEY" value="" />
-                <label>Session Token (if using MFA):</label>
+                <label>Session Token (if using STS):</label>
                 <input type="password" id="session_token" placeholder="SESSION TOKEN" value="" />
             </div>
             <div class="col">
